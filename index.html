@@ -7,5 +7,89 @@
 #
 layout: home
 ---
-
-<div> Test title </div>
+<head>
+    <style>
+        #phonehand:hover {
+            right: 7%!important;
+            width: 45%!important;
+        }
+    </style>
+</head>
+<div style="position: relative; height: 350px; margin-bottom: 50px;">
+    <div style="
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        top: 50px;
+        width: 90%;
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-content: flex-start;
+        ">
+        <div id="keepa" style="
+        transition: 1s;
+        margin-left: 10%;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 10px;
+        width: 90%;
+        background-color: rgb(40, 133, 100);">
+            <p style="
+            width: 100%;
+            color: black;
+            margin-top: 5px;
+            margin-left: 5%;
+            "> 
+            <b style="font-size: 40px;">KEEPA</b><br> <span style="font-size: large;">SMART SHOPKEEPING</span></p>
+        </div>
+        <div  id="slogan" style="
+            transition: 1s;
+            width: 90%;
+            font-size: 20px;
+            display: flex;">
+            <p style="
+            padding: 15px;
+            width: 40%;
+            background-color: rgb(210, 77, 67);
+            color: black;
+            font-weight: bold;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            padding-right: 4px;
+            text-align: right;"> 
+            <b>SCAN<br>TRACK<br>GET</b></p>
+            
+            <p style="background-color: rgb(242, 204, 78); 
+            padding: 15px;
+            width: 60%;
+            align-self: center; 
+            color: black;
+            padding-left: 4px;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            font-weight: 400;
+            text-align: left;"> 
+            PRODUCTS<br>SALES<br>LOANS</p>
+        </div>
+    </div>
+    <div  style="width:100%;">
+        <img id="phonehand"
+            src="{{ "/assets/imgs/phonehand.png" | relative_url }}" alt="phonehand" 
+            style="
+            transition: 1s;
+            width: 40%;
+            position: absolute;
+            right: 10%;
+            ">
+    </div>
+</div>
+<div  style="width:100%;">
+    <img id="overview"
+        src="{{ "/assets/imgs/overview-slide-keepa.jpg" | relative_url }}" alt="App Overview" 
+        style="
+        width: 100%;
+        ">
+</div>
