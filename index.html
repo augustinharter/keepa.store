@@ -13,6 +13,14 @@ layout: home
             right: 7%!important;
             width: 45%!important;
         }
+        @keyframes slideInRight {
+        0% {
+            transform: translateX(+100%);
+        }
+        100% {
+            transform: translateX(0);
+        }
+        }
     </style>
 </head>
 <div style="position: relative; height: 350px; margin-bottom: 50px;">
@@ -79,6 +87,7 @@ layout: home
         <img id="phonehand"
             src="{{ "/assets/imgs/phonehand.png" | relative_url }}" alt="phonehand" 
             style="
+            animation: 1s ease-out 0s 1 slideInRight;
             transition: 1s;
             width: 40%;
             position: absolute;
@@ -91,5 +100,6 @@ layout: home
         src="{{ "/assets/imgs/overview-slide-keepa.jpg" | relative_url }}" alt="App Overview" 
         style="
         width: 100%;
+        border-radius: 5px;
         ">
 </div>
