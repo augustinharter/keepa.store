@@ -9,8 +9,6 @@ description: >
   Keepa is smart shopkeeping: Scan products, track sales and get loans! Use our machine learning powered app to automate your checkout process.
 # Build settings
 
-theme: minima
-
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
